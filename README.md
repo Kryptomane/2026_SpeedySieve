@@ -118,16 +118,18 @@ Intel Core i5-13600KF (6 performance + 8 efficiency cores, 20 threads), Windows,
 
 | x | primesieve | Furious Speed |
 |---|---:|---:|
-| 10^12 | 17 s | **14.6 s** (−14 %) |
-| 10^13 | 203 s | **176 s** (−13 %) |
-| 2 · 10^13 | – | **390 s** |
+| 10^12 | 17.7 s | **14.2 s** (−19 %) |
+| 10^13 | 210 s | **173.0 s** (−17 %) |
+| 2 · 10^13 | 411 s | **377 s** (-8 %)|
 
 ### GPU
 
-| x | LingSieve <br>GTX 1080 | LingSieve <br>RTX 5060 Ti | Furious Speed <br>RTX 2080 Ti | Furious Speed <br>RTX 5060 Ti (*estimated*) |
+| x | LingSieve GTX 1080 | LingSieve RTX 5060 Ti | Furious Speed RTX 2080 Ti | Furious Speed RTX 5060 Ti (*estimated*) |
 |---|---:|---:|---:|---:|
-| 10^12 | 5.91 s | 2.37 s | **2.48 s** | ≈ 2.2 s (−7 %) |
-| 10^13 | 75.9 s | 30.3 s | **31.3 s** | ≈ 28 s (−8 %) |
+| 10^12 | 5.91 s | 2.37 s | **2.38 s** | ≈ 2.2 s (−7 %) |
+| 10^13 | 75.9 s | 30.3 s | **29.87 s** | ≈ 28 s (−8 %) |
+
+![GPU benchmark: Furious Speed](bench-gpu.png)
 
 LingSieve figures are taken from the [LingSieve README](https://github.com/LingUaan/LingSieve). The last column is an estimate, not a measurement; the percentages compare it with LingSieve on the same card.
 
